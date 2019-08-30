@@ -1,3 +1,5 @@
+alert('script was loaded');
+
 var o = {
 	width: 11,
 	height: 5
