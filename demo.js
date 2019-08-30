@@ -1,1 +1,1 @@
-document.getElementById("text").innerHTML = "Text added by JavaScript code";
+document.getElementById("text").innerHTML = "Text added by JavaScript code from file";
