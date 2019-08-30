@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 {% include example.html %}
 
-<script src=example.js/>
+<script src="{{ base.url | prepend: site.url }}/assets/js/example.js"></script>
 
 ### Markdown
 
