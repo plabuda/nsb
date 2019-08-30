@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 {% include example.html %}
 
-<script> alert('I am calling from Jekyll!')</script>
+<script src=example.js/>
 
 ### Markdown
 
