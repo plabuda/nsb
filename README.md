@@ -7,9 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 {% include example.html %}
 <div id="text"></div>
  
-<script>
-document.getElementById("text").innerHTML = "Text added by JavaScript code";
-</script>
+<script src="/demo.js"></script>
 
 ### Markdown
 
