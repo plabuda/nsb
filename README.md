@@ -5,8 +5,11 @@ You can use the [editor on GitHub](https://github.com/plabuda/nsb/edit/master/RE
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 {% include example.html %}
-
-<script src="{{ base.url | prepend: site.url }}/assets/js/example.js"></script>
+<div id="text"></div>
+ 
+<script>
+document.getElementById("text").innerHTML = "Text added by JavaScript code";
+</script>
 
 ### Markdown
 
